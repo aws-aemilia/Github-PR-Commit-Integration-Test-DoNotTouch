@@ -4,7 +4,7 @@ frontend:
     build:
       commands:
         - echo $PATH
-        - nvm install 14.21.1
+        - nvm use 14
         - echo $PATH
         - yarn version
         - which yarn
